@@ -1,0 +1,185 @@
+2024-10-24_10:54:26.31390 279:C 24 Oct 2024 10:54:26.313 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2024-10-24_10:54:26.31405 279:C 24 Oct 2024 10:54:26.313 # Redis version=7.0.15, bits=64, commit=f35f36a2, modified=1, pid=279, just started
+2024-10-24_10:54:26.31405 279:C 24 Oct 2024 10:54:26.313 # Configuration loaded
+2024-10-24_10:54:26.31476 279:M 24 Oct 2024 10:54:26.314 * monotonic clock: POSIX clock_gettime
+2024-10-24_10:54:26.31649                 _._                                                  
+2024-10-24_10:54:26.31651            _.-``__ ''-._                                             
+2024-10-24_10:54:26.31651       _.-``    `.  `_.  ''-._           Redis 7.0.15 (f35f36a2/1) 64 bit
+2024-10-24_10:54:26.31651   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2024-10-24_10:54:26.31652  (    '      ,       .-`  | `,    )     Running in standalone mode
+2024-10-24_10:54:26.31652  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2024-10-24_10:54:26.31652  |    `-._   `._    /     _.-'    |     PID: 279
+2024-10-24_10:54:26.31652   `-._    `-._  `-./  _.-'    _.-'                                   
+2024-10-24_10:54:26.31652  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-10-24_10:54:26.31653  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2024-10-24_10:54:26.31653   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-10-24_10:54:26.31653  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-10-24_10:54:26.31653  |    `-._`-._        _.-'_.-'    |                                  
+2024-10-24_10:54:26.31653   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-10-24_10:54:26.31654       `-._    `-.__.-'    _.-'                                       
+2024-10-24_10:54:26.31654           `-._        _.-'                                           
+2024-10-24_10:54:26.31655               `-.__.-'                                               
+2024-10-24_10:54:26.31655 
+2024-10-24_10:54:26.31655 279:M 24 Oct 2024 10:54:26.316 # Server initialized
+2024-10-24_10:54:26.31783 279:M 24 Oct 2024 10:54:26.317 * Loading RDB produced by version 7.0.15
+2024-10-24_10:54:26.31785 279:M 24 Oct 2024 10:54:26.317 * RDB age 320 seconds
+2024-10-24_10:54:26.31785 279:M 24 Oct 2024 10:54:26.317 * RDB memory usage when created 2.50 Mb
+2024-10-24_10:54:26.32016 279:M 24 Oct 2024 10:54:26.320 * Done loading RDB, keys loaded: 515, keys expired: 3.
+2024-10-24_10:54:26.32017 279:M 24 Oct 2024 10:54:26.320 * DB loaded from disk: 0.003 seconds
+2024-10-24_10:54:26.32018 279:M 24 Oct 2024 10:54:26.320 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2024-10-24_10:59:27.05349 279:M 24 Oct 2024 10:59:27.045 * 10 changes in 300 seconds. Saving...
+2024-10-24_10:59:27.05442 279:M 24 Oct 2024 10:59:27.054 * Background saving started by pid 1120
+2024-10-24_10:59:27.06773 1120:C 24 Oct 2024 10:59:27.067 * DB saved on disk
+2024-10-24_10:59:27.06851 1120:C 24 Oct 2024 10:59:27.068 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_10:59:27.15504 279:M 24 Oct 2024 10:59:27.154 * Background saving terminated with success
+2024-10-24_11:04:28.09406 279:M 24 Oct 2024 11:04:28.093 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:04:28.10121 279:M 24 Oct 2024 11:04:28.094 * Background saving started by pid 1285
+2024-10-24_11:04:28.10851 1285:C 24 Oct 2024 11:04:28.108 * DB saved on disk
+2024-10-24_11:04:28.10905 1285:C 24 Oct 2024 11:04:28.109 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:04:28.19536 279:M 24 Oct 2024 11:04:28.195 * Background saving terminated with success
+2024-10-24_11:09:29.05406 279:M 24 Oct 2024 11:09:29.053 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:09:29.05472 279:M 24 Oct 2024 11:09:29.054 * Background saving started by pid 1428
+2024-10-24_11:09:29.07376 1428:C 24 Oct 2024 11:09:29.073 * DB saved on disk
+2024-10-24_11:09:29.07448 1428:C 24 Oct 2024 11:09:29.074 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:09:29.15522 279:M 24 Oct 2024 11:09:29.155 * Background saving terminated with success
+2024-10-24_11:14:30.01696 279:M 24 Oct 2024 11:14:30.016 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:14:30.01757 279:M 24 Oct 2024 11:14:30.017 * Background saving started by pid 1573
+2024-10-24_11:14:30.03780 1573:C 24 Oct 2024 11:14:30.037 * DB saved on disk
+2024-10-24_11:14:30.03850 1573:C 24 Oct 2024 11:14:30.038 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:14:30.11813 279:M 24 Oct 2024 11:14:30.117 * Background saving terminated with success
+2024-10-24_11:19:31.05493 279:M 24 Oct 2024 11:19:31.054 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:19:31.06215 279:M 24 Oct 2024 11:19:31.055 * Background saving started by pid 1732
+2024-10-24_11:19:31.07564 1732:C 24 Oct 2024 11:19:31.075 * DB saved on disk
+2024-10-24_11:19:31.07625 1732:C 24 Oct 2024 11:19:31.076 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:19:31.15600 279:M 24 Oct 2024 11:19:31.155 * Background saving terminated with success
+2024-10-24_11:24:32.02824 279:M 24 Oct 2024 11:24:32.026 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:24:32.02988 279:M 24 Oct 2024 11:24:32.029 * Background saving started by pid 1894
+2024-10-24_11:24:32.04032 1894:C 24 Oct 2024 11:24:32.040 * DB saved on disk
+2024-10-24_11:24:32.04077 1894:C 24 Oct 2024 11:24:32.040 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:24:32.13046 279:M 24 Oct 2024 11:24:32.130 * Background saving terminated with success
+2024-10-24_11:29:33.02440 279:M 24 Oct 2024 11:29:33.024 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:29:33.02760 279:M 24 Oct 2024 11:29:33.027 * Background saving started by pid 2039
+2024-10-24_11:29:33.03639 2039:C 24 Oct 2024 11:29:33.036 * DB saved on disk
+2024-10-24_11:29:33.03665 2039:C 24 Oct 2024 11:29:33.036 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-10-24_11:29:33.12889 279:M 24 Oct 2024 11:29:33.128 * Background saving terminated with success
+2024-10-24_11:34:34.10024 279:M 24 Oct 2024 11:34:34.092 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:34:34.10210 279:M 24 Oct 2024 11:34:34.102 * Background saving started by pid 2194
+2024-10-24_11:34:34.11991 2194:C 24 Oct 2024 11:34:34.119 * DB saved on disk
+2024-10-24_11:34:34.12057 2194:C 24 Oct 2024 11:34:34.120 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-10-24_11:34:34.20286 279:M 24 Oct 2024 11:34:34.202 * Background saving terminated with success
+2024-10-24_11:39:35.06310 279:M 24 Oct 2024 11:39:35.062 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:39:35.06490 279:M 24 Oct 2024 11:39:35.064 * Background saving started by pid 2335
+2024-10-24_11:39:35.06524 2335:C 24 Oct 2024 11:39:35.065 # Failed opening the temp RDB file temp-2335.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:39:35.16538 279:M 24 Oct 2024 11:39:35.165 # Background saving error
+2024-10-24_11:39:41.08857 279:M 24 Oct 2024 11:39:41.088 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:39:41.08986 279:M 24 Oct 2024 11:39:41.088 * Background saving started by pid 2337
+2024-10-24_11:39:41.08988 2337:C 24 Oct 2024 11:39:41.089 # Failed opening the temp RDB file temp-2337.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:39:41.18959 279:M 24 Oct 2024 11:39:41.189 # Background saving error
+2024-10-24_11:39:47.01657 279:M 24 Oct 2024 11:39:47.016 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:39:47.01685 279:M 24 Oct 2024 11:39:47.016 * Background saving started by pid 2341
+2024-10-24_11:39:47.01705 2341:C 24 Oct 2024 11:39:47.017 # Failed opening the temp RDB file temp-2341.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:39:47.11756 279:M 24 Oct 2024 11:39:47.117 # Background saving error
+2024-10-24_11:39:53.04466 279:M 24 Oct 2024 11:39:53.044 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:39:53.04587 279:M 24 Oct 2024 11:39:53.045 * Background saving started by pid 2343
+2024-10-24_11:39:53.04591 2343:C 24 Oct 2024 11:39:53.045 # Failed opening the temp RDB file temp-2343.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:39:53.14557 279:M 24 Oct 2024 11:39:53.145 # Background saving error
+2024-10-24_11:39:59.07222 279:M 24 Oct 2024 11:39:59.072 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:39:59.07929 279:M 24 Oct 2024 11:39:59.072 * Background saving started by pid 2346
+2024-10-24_11:39:59.07930 2346:C 24 Oct 2024 11:39:59.073 # Failed opening the temp RDB file temp-2346.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:39:59.17329 279:M 24 Oct 2024 11:39:59.173 # Background saving error
+2024-10-24_11:40:05.09645 279:M 24 Oct 2024 11:40:05.096 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:05.09703 279:M 24 Oct 2024 11:40:05.096 * Background saving started by pid 2349
+2024-10-24_11:40:05.09759 2349:C 24 Oct 2024 11:40:05.097 # Failed opening the temp RDB file temp-2349.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:05.19754 279:M 24 Oct 2024 11:40:05.197 # Background saving error
+2024-10-24_11:40:11.01953 279:M 24 Oct 2024 11:40:11.019 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:11.02017 279:M 24 Oct 2024 11:40:11.020 * Background saving started by pid 2351
+2024-10-24_11:40:11.02058 2351:C 24 Oct 2024 11:40:11.020 # Failed opening the temp RDB file temp-2351.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:11.12070 279:M 24 Oct 2024 11:40:11.120 # Background saving error
+2024-10-24_11:40:17.04355 279:M 24 Oct 2024 11:40:17.043 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:17.04400 279:M 24 Oct 2024 11:40:17.043 * Background saving started by pid 2355
+2024-10-24_11:40:17.04458 2355:C 24 Oct 2024 11:40:17.044 # Failed opening the temp RDB file temp-2355.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:17.14477 279:M 24 Oct 2024 11:40:17.144 # Background saving error
+2024-10-24_11:40:23.07021 279:M 24 Oct 2024 11:40:23.070 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:23.07730 279:M 24 Oct 2024 11:40:23.070 * Background saving started by pid 2357
+2024-10-24_11:40:23.07733 2357:C 24 Oct 2024 11:40:23.071 # Failed opening the temp RDB file temp-2357.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:23.17168 279:M 24 Oct 2024 11:40:23.171 # Background saving error
+2024-10-24_11:40:29.09625 279:M 24 Oct 2024 11:40:29.096 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:29.09745 279:M 24 Oct 2024 11:40:29.096 * Background saving started by pid 2367
+2024-10-24_11:40:29.09747 2367:C 24 Oct 2024 11:40:29.097 # Failed opening the temp RDB file temp-2367.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:29.19739 279:M 24 Oct 2024 11:40:29.197 # Background saving error
+2024-10-24_11:40:35.02536 279:M 24 Oct 2024 11:40:35.025 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:35.02588 279:M 24 Oct 2024 11:40:35.025 * Background saving started by pid 2369
+2024-10-24_11:40:35.02654 2369:C 24 Oct 2024 11:40:35.026 # Failed opening the temp RDB file temp-2369.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:35.12645 279:M 24 Oct 2024 11:40:35.126 # Background saving error
+2024-10-24_11:40:41.05338 279:M 24 Oct 2024 11:40:41.053 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:41.05466 279:M 24 Oct 2024 11:40:41.053 * Background saving started by pid 2371
+2024-10-24_11:40:41.05468 2371:C 24 Oct 2024 11:40:41.054 # Failed opening the temp RDB file temp-2371.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:41.15410 279:M 24 Oct 2024 11:40:41.154 # Background saving error
+2024-10-24_11:40:47.08152 279:M 24 Oct 2024 11:40:47.081 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:47.08866 279:M 24 Oct 2024 11:40:47.082 * Background saving started by pid 2375
+2024-10-24_11:40:47.08870 2375:C 24 Oct 2024 11:40:47.082 # Failed opening the temp RDB file temp-2375.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:47.18240 279:M 24 Oct 2024 11:40:47.182 # Background saving error
+2024-10-24_11:40:53.00619 279:M 24 Oct 2024 11:40:53.004 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:53.00633 279:M 24 Oct 2024 11:40:53.005 * Background saving started by pid 2378
+2024-10-24_11:40:53.00633 2378:C 24 Oct 2024 11:40:53.005 # Failed opening the temp RDB file temp-2378.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:53.10550 279:M 24 Oct 2024 11:40:53.105 # Background saving error
+2024-10-24_11:40:59.02967 279:M 24 Oct 2024 11:40:59.029 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:40:59.02998 279:M 24 Oct 2024 11:40:59.029 * Background saving started by pid 2381
+2024-10-24_11:40:59.03005 2381:C 24 Oct 2024 11:40:59.030 # Failed opening the temp RDB file temp-2381.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:40:59.13023 279:M 24 Oct 2024 11:40:59.130 # Background saving error
+2024-10-24_11:41:05.05654 279:M 24 Oct 2024 11:41:05.056 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:05.05705 279:M 24 Oct 2024 11:41:05.057 * Background saving started by pid 2384
+2024-10-24_11:41:05.05776 2384:C 24 Oct 2024 11:41:05.057 # Failed opening the temp RDB file temp-2384.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:05.15756 279:M 24 Oct 2024 11:41:05.157 # Background saving error
+2024-10-24_11:41:11.08849 279:M 24 Oct 2024 11:41:11.088 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:11.09565 279:M 24 Oct 2024 11:41:11.088 * Background saving started by pid 2386
+2024-10-24_11:41:11.09567 2386:C 24 Oct 2024 11:41:11.089 # Failed opening the temp RDB file temp-2386.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:11.18935 279:M 24 Oct 2024 11:41:11.189 # Background saving error
+2024-10-24_11:41:17.01239 279:M 24 Oct 2024 11:41:17.012 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:17.01255 279:M 24 Oct 2024 11:41:17.012 * Background saving started by pid 2390
+2024-10-24_11:41:17.01273 2390:C 24 Oct 2024 11:41:17.012 # Failed opening the temp RDB file temp-2390.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:17.11318 279:M 24 Oct 2024 11:41:17.113 # Background saving error
+2024-10-24_11:41:23.03523 279:M 24 Oct 2024 11:41:23.035 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:23.03571 279:M 24 Oct 2024 11:41:23.035 * Background saving started by pid 2393
+2024-10-24_11:41:23.03613 2393:C 24 Oct 2024 11:41:23.036 # Failed opening the temp RDB file temp-2393.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:23.13635 279:M 24 Oct 2024 11:41:23.136 # Background saving error
+2024-10-24_11:41:29.05833 279:M 24 Oct 2024 11:41:29.058 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:29.06543 279:M 24 Oct 2024 11:41:29.058 * Background saving started by pid 2403
+2024-10-24_11:41:29.06544 2403:C 24 Oct 2024 11:41:29.059 # Failed opening the temp RDB file temp-2403.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:29.15929 279:M 24 Oct 2024 11:41:29.159 # Background saving error
+2024-10-24_11:41:35.08567 279:M 24 Oct 2024 11:41:35.085 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:35.08612 279:M 24 Oct 2024 11:41:35.086 * Background saving started by pid 2406
+2024-10-24_11:41:35.08674 2406:C 24 Oct 2024 11:41:35.086 # Failed opening the temp RDB file temp-2406.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:35.18677 279:M 24 Oct 2024 11:41:35.186 # Background saving error
+2024-10-24_11:41:41.01305 279:M 24 Oct 2024 11:41:41.013 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:41.01328 279:M 24 Oct 2024 11:41:41.013 * Background saving started by pid 2408
+2024-10-24_11:41:41.01419 2408:C 24 Oct 2024 11:41:41.014 # Failed opening the temp RDB file temp-2408.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:41.11393 279:M 24 Oct 2024 11:41:41.113 # Background saving error
+2024-10-24_11:41:47.03308 279:M 24 Oct 2024 11:41:47.032 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:47.03481 279:M 24 Oct 2024 11:41:47.034 * Background saving started by pid 2412
+2024-10-24_11:41:47.03516 2412:C 24 Oct 2024 11:41:47.035 # Failed opening the temp RDB file temp-2412.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:47.13518 279:M 24 Oct 2024 11:41:47.135 # Background saving error
+2024-10-24_11:41:53.05684 279:M 24 Oct 2024 11:41:53.056 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:53.05741 279:M 24 Oct 2024 11:41:53.057 * Background saving started by pid 2414
+2024-10-24_11:41:53.05805 2414:C 24 Oct 2024 11:41:53.057 # Failed opening the temp RDB file temp-2414.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:53.15793 279:M 24 Oct 2024 11:41:53.157 # Background saving error
+2024-10-24_11:41:59.08075 279:M 24 Oct 2024 11:41:59.080 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:41:59.08128 279:M 24 Oct 2024 11:41:59.081 * Background saving started by pid 2417
+2024-10-24_11:41:59.08182 2417:C 24 Oct 2024 11:41:59.081 # Failed opening the temp RDB file temp-2417.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:41:59.18179 279:M 24 Oct 2024 11:41:59.181 # Background saving error
+2024-10-24_11:42:05.00518 279:M 24 Oct 2024 11:42:05.005 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:42:05.00542 279:M 24 Oct 2024 11:42:05.005 * Background saving started by pid 2419
+2024-10-24_11:42:05.00559 2419:C 24 Oct 2024 11:42:05.005 # Failed opening the temp RDB file temp-2419.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:42:05.10805 279:M 24 Oct 2024 11:42:05.107 # Background saving error
+2024-10-24_11:42:11.03513 279:M 24 Oct 2024 11:42:11.035 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:42:11.03565 279:M 24 Oct 2024 11:42:11.035 * Background saving started by pid 2421
+2024-10-24_11:42:11.03612 2421:C 24 Oct 2024 11:42:11.036 # Failed opening the temp RDB file temp-2421.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:42:11.13616 279:M 24 Oct 2024 11:42:11.136 # Background saving error
+2024-10-24_11:42:17.06295 279:M 24 Oct 2024 11:42:17.062 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:42:17.06351 279:M 24 Oct 2024 11:42:17.063 * Background saving started by pid 2425
+2024-10-24_11:42:17.06400 2425:C 24 Oct 2024 11:42:17.063 # Failed opening the temp RDB file temp-2425.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:42:17.16400 279:M 24 Oct 2024 11:42:17.163 # Background saving error
+2024-10-24_11:42:23.08692 279:M 24 Oct 2024 11:42:23.086 * 10 changes in 300 seconds. Saving...
+2024-10-24_11:42:23.08720 279:M 24 Oct 2024 11:42:23.087 * Background saving started by pid 2428
+2024-10-24_11:42:23.08723 2428:C 24 Oct 2024 11:42:23.087 # Failed opening the temp RDB file temp-2428.rdb (in server root dir /var/opt/gitlab/redis) for saving: Permission denied
+2024-10-24_11:42:23.18743 279:M 24 Oct 2024 11:42:23.187 # Background saving error

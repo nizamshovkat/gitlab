@@ -1,0 +1,43 @@
+{"level":"info","msg":"Wrapper started","pid":298,"time":"2024-10-24T10:34:10.009Z","wrapper":298}
+{"level":"info","msg":"finding process","pid":298,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2024-10-24T10:34:10.009Z","wrapper":298}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":298,"time":"2024-10-24T10:34:10.009Z","wrapper":298}
+{"level":"info","msg":"spawning a process","pid":298,"time":"2024-10-24T10:34:10.009Z","wrapper":298}
+{"level":"info","msg":"monitoring process","pid":298,"process":304,"time":"2024-10-24T10:34:10.009Z","wrapper":298}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":304,"time":"2024-10-24T10:34:10.183Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined","pid":304,"time":"2024-10-24T10:34:10.184Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":304,"time":"2024-10-24T10:34:10.184Z"}
+{"level":"info","msg":"Starting Gitaly","pid":304,"time":"2024-10-24T10:34:10.184Z","version":"17.5.1"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-545","pid":304,"time":"2024-10-24T10:34:10.187Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":304,"time":"2024-10-24T10:34:10.187Z"}
+{"duration_ms":60,"level":"info","msg":"finished unpacking auxiliary binaries","pid":304,"time":"2024-10-24T10:34:10.247Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":304,"time":"2024-10-24T10:34:10.248Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing command factory","pid":304,"time":"2024-10-24T10:34:10.248Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-304/git-exec-1919937811.d/git","level":"info","msg":"using Git binary","pid":304,"time":"2024-10-24T10:34:10.248Z"}
+{"duration_ms":1,"level":"info","msg":"finished detecting git version","pid":304,"time":"2024-10-24T10:34:10.250Z"}
+{"level":"info","msg":"using Git version","pid":304,"time":"2024-10-24T10:34:10.250Z","version":"2.46.2"}
+{"level":"info","msg":"clearing disk cache object folder","pid":304,"storage":"default","time":"2024-10-24T10:34:10.250Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3352860513","level":"info","msg":"moving disk cache object folder","pid":304,"storage":"default","time":"2024-10-24T10:34:10.250Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3352860513","level":"info","msg":"disk cache object folder doesn't exist, no need to remove","pid":304,"storage":"default","time":"2024-10-24T10:34:10.250Z"}
+{"disk_cache_path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","level":"info","msg":"Starting file walker","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","pid":304,"time":"2024-10-24T10:34:10.250Z"}
+{"disk_cache_path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","level":"info","msg":"Starting file walker","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","pid":304,"time":"2024-10-24T10:34:10.250Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3352860513","clear_duration_ms":0,"level":"info","msg":"cleared all cache object files","pid":304,"storage":"default","time":"2024-10-24T10:34:10.250Z"}
+{"level":"info","msg":"counting repositories","pid":304,"time":"2024-10-24T10:34:10.254Z"}
+{"level":"info","msg":"starting to count repositories","pid":304,"storage_path":"/var/opt/gitlab/git-data/repositories","time":"2024-10-24T10:34:10.254Z"}
+{"counting_duration_ms":0,"level":"info","msg":"completed counting repositories","pid":304,"storage_path":"/var/opt/gitlab/git-data/repositories","time":"2024-10-24T10:34:10.254Z"}
+{"counting_duration":0,"level":"info","msg":"completed counting all repositories","pid":304,"time":"2024-10-24T10:34:10.254Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at address","pid":304,"schema":"unix","time":"2024-10-24T10:34:10.254Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-304/sock.d/intern","level":"info","msg":"listening at address","pid":304,"schema":"unix","time":"2024-10-24T10:34:10.254Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","pid":304,"storage":"default","time":"2024-10-24T10:34:10.254Z","time_ms":0}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","pid":304,"time":"2024-10-24T10:34:10.254Z"}
+{"duration_ms":70,"level":"info","msg":"Started Gitaly","pid":304,"time":"2024-10-24T10:34:10.254Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":304,"scheduled":"2024-10-24T12:00:00Z","time":"2024-10-24T10:34:10.255Z"}
+{"duration_ms":2087,"level":"info","msg":"License database preloaded","pid":304,"time":"2024-10-24T10:34:12.271Z"}
+{"level":"warning","msg":"forwarding signal","pid":298,"process":304,"signal":15,"time":"2024-10-24T10:53:54.040Z","wrapper":298}
+{"level":"warning","msg":"forwarding signal","pid":298,"process":304,"signal":18,"time":"2024-10-24T10:53:54.045Z","wrapper":298}
+{"level":"info","msg":"[shutdown] stopping Gitaly","pid":304,"time":"2024-10-24T10:53:54.047Z"}
+{"level":"warning","msg":"starting grace period","pid":304,"time":"2024-10-24T10:53:54.048Z"}
+{"level":"info","msg":"[shutdown] stopped Gitaly gracefully","pid":304,"time":"2024-10-24T10:53:54.050Z"}
+{"level":"info","msg":"Gitaly shutdown","pid":304,"time":"2024-10-24T10:53:54.054Z"}
+{"level":"warning","msg":"forwarding signal","pid":298,"process":304,"signal":17,"time":"2024-10-24T10:53:54.062Z","wrapper":298}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":298,"process":304,"signal":17,"time":"2024-10-24T10:53:54.063Z","wrapper":298}
+{"level":"error","msg":"wrapper for process shutting down","pid":298,"process":304,"time":"2024-10-24T10:53:54.503Z","wrapper":298}

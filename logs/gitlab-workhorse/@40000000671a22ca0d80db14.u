@@ -1,0 +1,12 @@
+configFile: file: open config.toml: no such file or directory
+configFile: file: open config.toml: no such file or directory
+{"build_time":"20241022.195921","level":"info","msg":"Starting","time":"2024-10-24T10:32:55Z","version":"v17.5.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-10-24T10:32:55Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-10-24T10:32:55Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-10-24T10:32:55Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-10-24T10:32:55Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-10-24T10:32:55Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-10-24T10:33:05Z","uri":""}
+{"correlation_id":"01JAZ1CSC1RMAJZJYG7NPXFKSM","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-10-24T10:33:11Z","uri":"/help"}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JAZ1CSC1RMAJZJYG7NPXFKSM","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":502,"system":"http","time":"2024-10-24T10:33:11Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/8.10.1-DEV","written_bytes":2026}
+{"backend_id":"rails","content_type":"application/json","correlation_id":"01JAZ1DCABND62265AJWHGN25X","duration_ms":33,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"^/api/","route_id":"api","status":404,"system":"http","time":"2024-10-24T10:33:31Z","ttfb_ms":33,"uri":"/api/v4/internal/kubernetes/receptive_agents","user_agent":"gitlab-kas/v17.5.1/v17.5.1","written_bytes":25}
